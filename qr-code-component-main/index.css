@@ -2,15 +2,15 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    font-size: 15px;
 
 }
 
 @font-face {
-    font-family:Outfit;
-    src: url(./fonts/Outfit/Outfit-VariableFont_wght.ttf);
-}
-
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/outfit/v4/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1O4a0FQItq6fNIg.woff) format('woff');
+  }
 html,body{
     height: 100%;
     width: 100%;
@@ -28,8 +28,9 @@ body{
     background-color: hsl(0, 0%, 100%);
     padding: 15px;
     border-radius: 20px;
-    width: 350px;
-    height: 550px;
+    width: 310px;
+    height: 480px;
+    box-shadow: 0 6px 18px 0 #b4c7df;
 }
 .qr__img{
     width: 100%;
@@ -41,12 +42,13 @@ body{
 }
 
 .qr__title{
-    font-weight: 900;
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 15px;
 }
 
 .qr__paragraph{
-    font-size: 18px;
+    font-size: 15px;
     color:hsl(220, 15%, 55%);
+    line-height: 25px;
 }
