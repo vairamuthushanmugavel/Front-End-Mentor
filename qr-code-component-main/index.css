@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0px;
@@ -5,12 +8,6 @@
 
 }
 
-@font-face {
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/outfit/v4/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1O4a0FQItq6fNIg.woff) format('woff');
-  }
 html,body{
     height: 100%;
     width: 100%;
